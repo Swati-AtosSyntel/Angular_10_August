@@ -1,0 +1,46 @@
+1. Check for npm and node version
+
+2. Install angular cli
+
+Install Globally
+npm install -g @angular/cli
+Install Locally
+npm install @angular/cli
+
+---------------------------------------
+
+Install Specific Version (Example: 6.1.1)
+npm install -g @angular/cli@6.1.1
+
+
+npm install -g @angular/cli@latest
+
+
+-----------------------------------------------------
+ng new myAngApp
+
+SCSS contains all the features of CSS and contains more features that are not present in CSS which makes it a good choice for developers to use it. SCSS is full of advanced features. SCSS offers variables, you can shorten your code by using variables. It is a great advantage over conventional CSS.
+------------------------------------------------------
+Introduction to directory structure:
+
+1. e2e It contains the code related to automated testing purpose. For example, if on a certain page you are calling a REST API then what should be the return status code, whether it is acceptable or not etc.
+
+2. node_modules It saves all the dev dependencies (used only at development time) and dependencies (used for development as well as needed in production time), any new dependency when added to project it is automatically saved to this folder.
+
+3. src This directory contains all of our work related to project i.e. creating components, creating services, adding CSS to the respective page, etc.
+
+4. package.json This file stores the information about the libraries added and used in the project with their specified version installed. Whenever a new library is added to the project it’s name and version is added to the dependencies in package.json.
+
+5. Other files: As a beginner you don’t need these files at this time, don’t bother about that. These all are used  at compile time for editor configurations and information. 
+
+This will be taken care by  builtin webpack in angular CLI manages all for you.
+-------------------------------------------------------
+to run the project at a specific port
+
+ng serve --host 0.0.0.0 --port 4201
+-------------------------------------------------------
+
+
+
+
+
